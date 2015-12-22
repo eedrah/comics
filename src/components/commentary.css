@@ -1,5 +1,5 @@
 .hiddenContent {
-  width: 600px;
+  width: 400px;
   height: 400px;
   margin: 0 auto;
   position: relative;
@@ -7,7 +7,7 @@
 }
 
 iframe {
-  width: 600px;
+  width: 400px;
   height: 1540px;
   top: -1140px;
   position: absolute;
