@@ -5,5 +5,8 @@ module.exports = function (props) {
   while (number.length < 4) {
     number = '0' + number
   }
-  return h('img', {src: `http://www.darthsanddroids.net/comics/darths${number}.jpg`})
+  return h('div', [
+    h('img', {src: `http://www.darthsanddroids.net/comics/darths${number}.jpg`}),
+    h('iframe', {src: `http://www.darthsanddroids.net/episodes/${number}.html`})
+  ])
 }
