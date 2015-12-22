@@ -1,5 +1,6 @@
 var h = require('virtual-dom/h')
+var comic = require('./comic')
 
-module.exports = function (props) {
-  return h('div', props)
+module.exports = function () {
+  return h('div', comic(1))
 }
