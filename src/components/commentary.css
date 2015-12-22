@@ -1,3 +1,26 @@
-iframe {
-  border: blue 10px solid;
+.hiddenContent {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: scroll;
 }
+
+iframe {
+  width: 600px;
+  height: 1540px;
+  top: -1140px;
+  position: absolute;
+  border: none;
+}
+  /* width:446px;
+   height:246px;
+   overflow:hidden;
+   position:relative;
+{
+   position:absolute;
+   top:-412px;
+   left:-318px;
+   width:1280px;
+   height:1200px;
+*/

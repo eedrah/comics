@@ -5,8 +5,10 @@ var className = sheetify('./commentary.css')
 
 module.exports = function (props) {
   return h('div', {className},
-    h('iframe', {
-      src: `http://www.darthsanddroids.net/episodes/${props}.html`
-    })
+    h('div', {className: 'hiddenContent'},
+      h('iframe', {
+        src: `http://www.darthsanddroids.net/episodes/${props}.html`
+      })
+    )
   )
 }
