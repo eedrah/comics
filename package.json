@@ -32,6 +32,7 @@
     ]
   },
   "dependencies": {
+    "scrollmonitor": "^1.0.12",
     "virtual-dom": "^2.1.1"
   },
   "devDependencies": {
