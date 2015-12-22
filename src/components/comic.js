@@ -1,12 +1,15 @@
 var h = require('virtual-dom/h')
 
+var panel = require('./panel')
+var commentary = require('./commentary')
+
 module.exports = function (props) {
   let number = props.toString()
   while (number.length < 4) {
     number = '0' + number
   }
   return h('div', [
-    h('img', {src: `http://www.darthsanddroids.net/comics/darths${number}.jpg`}),
-    h('iframe', {src: `http://www.darthsanddroids.net/episodes/${number}.html`})
+    panel(number),
+    commentary(number)
   ])
 }
