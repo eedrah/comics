@@ -93,7 +93,7 @@ require("../../node_modules/sheetify/insert-css")("._4a1cb79c  .hiddenContent {\
 require("../../node_modules/sheetify/insert-css")("._33bb46bc  img {\n  width: 100%;\n}\n");var h=require("virtual-dom/h"),className="_33bb46bc";module.exports=function(s){return h("div",{className:className},h("img",{src:"http://www.darthsanddroids.net/comics/darths"+s+".jpg"}))};
 
 },{"../../node_modules/sheetify/insert-css":2,"virtual-dom/h":5}],31:[function(require,module,exports){
-require("../../node_modules/sheetify/insert-css")(":root, :root body {\n  padding: 0;\n  margin: 0;\n  background-color: black;\n}\n");for(var h=require("virtual-dom/h"),comic=require("./comic"),className="_c8383662",comics=[],i=236;350>=i;i++)comics.push(comic(i));module.exports=function(){return h("div",{className:className},comics)};
+require("../../node_modules/sheetify/insert-css")(":root, :root body {\n  padding: 0;\n  margin: 0;\n  background-color: black;\n}\n");for(var h=require("virtual-dom/h"),comic=require("./comic"),className="_c8383662",comics=[],i=350;420>=i;i++)comics.push(comic(i));module.exports=function(){return h("div",{className:className},comics)};
 
 },{"../../node_modules/sheetify/insert-css":2,"./comic":28,"virtual-dom/h":5}],32:[function(require,module,exports){
 "use strict";var createElement=require("virtual-dom/create-element"),root=require("./components/root"),tree=root(),rootNode=createElement(tree);document.body.appendChild(rootNode);
